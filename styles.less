@@ -1,9 +1,47 @@
 @primary-color: #13B1E7;
 @secondary-color: #99B56F;
-@background-color: #13B1E7;
+@background-color: #FFFFFF;
+@gradient-s-p: linear-gradient(90deg, @secondary-color 0%, @primary-color 100%);
 @card-color: #EBF4F6;
+
 @text-color: #6E6E70;
+@text-size-xs: 0.52rem; // 13px
+@text-size-sm: 0.72rem; // 18px
+@text-size-md: 25px;
+@text-size-lg: 1.2rem; // 30px
+@text-size-xl: 2.4rem; // 60px
+
+@button-height: 64px;
+
+@font-face {
+  font-family: 'BoosterNextFY';
+  src: url('/assets/fonts/BoosterNextFY-Regular.ttf');
+}
+@font-face {
+  font-family: 'BoosterNextFY';
+  src: url('/assets/fonts/BoosterNextFY-Bold.ttf');
+  font-weight: bold;
+}
+
+body {
+  font-family: BoosterNextFY, serif;
+  line-height: 1.5;
+}
 
 .heading {
   color: @text-color;
+  font-weight: bold;
+  font-size: @text-size-xl;
+}
+body {
+  background-color: @gradient-s-p;
+}
+
+.btn-primary {
+  background: @gradient-s-p;
+  border: none;
+  font-weight: bold;
+  padding: 1em 2em;
+  color: @background-color;
+  border-radius: 9999px;
 }
