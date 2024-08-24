@@ -1,0 +1,35 @@
+@primary-color: #13B1E7;
+@secondary-color: #99B56F;
+@background-color: #FFFFFF;
+@gradient-s-p: linear-gradient(90deg, @secondary-color 0%, @primary-color 100%);
+@card-color: #EBF4F6;
+
+@text-color: #6E6E70;
+@font-size-xs: 0.8125rem; // 13px
+@font-size-sm: 1.125rem; // 18px
+@font-size-md: 1.25rem; // 20px
+@font-size-lg: 1.5625rem; // 25px
+@font-size-xl: 1.875rem; // 30px
+@font-size-2xl: 3.75rem; // 60px
+
+@font-face {
+  font-family: 'BoosterNextFY';
+  src: url('/assets/fonts/BoosterNextFY-Light.ttf');
+}
+@font-face {
+  font-family: 'BoosterNextFY';
+  src: url('/assets/fonts/BoosterNextFY-Bold.ttf');
+  font-weight: bold;
+}
+
+body {
+  font-family: BoosterNextFY, serif;
+  font-size: @font-size-sm;
+  color: @text-color;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%
+}
+
