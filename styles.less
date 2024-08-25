@@ -1,52 +1,44 @@
 @import 'core.less';
 
-.heading {
-  font-weight: bold;
-  font-size: @font-size-2xl;
-}
-.sub-heading {
-  font-weight: bold;
-  font-size: @font-size-xl;
-}
-.lead-paragraph {
-  font-size: @font-size-lg;
-}
+@import 'navbar.less';
+@import 'hero.less';
 
-.btn-primary {
-  background: @gradient-s-p;
-  border: none;
-  font-weight: bold;
-  padding: 0.75em 2.25em;
-  color: @background-color;
-  border-radius: 9999px;
-  font-size: @font-size-md;
-}
 
-.hero {
-  .hero__left {
+.service-section {
+  .sub-heading {
+    font-size: @font-size-xl;
+    padding-bottom: 2rem;
   }
-  .hero__right {
-    div {
-      width: 60%;
+
+  .service-card {
+    border-radius: 1em;
+    background-color: @card-color;
+    border: none;
+    h4 {
+      font-weight: bold;
+      font-size: @font-size-sm;
+    }
+    p {
+      font-size: @font-size-sm;
+    }
+    padding: 2rem;
+    margin-bottom: 3rem;
+
+    &__header {
+      text-align: center;
+      margin-bottom: 3rem;
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      h3 {
+        padding: 0 2rem;
+        margin-top: 1rem;
+      }
+    }
+
+    .card-content {
+      padding-left: 0;
     }
   }
 }
-
-
-
-.service-card {
-  border-radius: 1em;
-  background-color: @card-color;
-  border: none;
-  h4 {
-    font-weight: bold;
-    font-size: @font-size-sm;
-  }
-  p {
-    font-size: @font-size-sm;
-  }
-  .service-header {
-    width: auto;
-  }
-}
-
