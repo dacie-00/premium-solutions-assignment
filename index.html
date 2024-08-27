@@ -38,7 +38,7 @@
 <!--        <div class="card service-card container p-5">-->
 <!--            <div class="row">-->
 <!--                <div class="service-header col-lg-3 mx-auto mb-5">-->
-<!--                    <img src="assets/images/about/cybersecurity.svg">-->
+<!--                    <img src="assets/images/services/cybersecurity.svg">-->
 <!--                    <h3>KIBERDROŠĪBA</h3>-->
 <!--                </div>-->
 <!--                <div class="card-content col-lg-9 d-grid gap-4">-->
@@ -61,7 +61,7 @@
 <!--        <div class="card service-card container p-5">-->
 <!--            <div class="row">-->
 <!--                <div class="service-header col-lg-3 mx-auto pb-5">-->
-<!--                    <img src="assets/images/about/cybersecurity.svg">-->
+<!--                    <img src="assets/images/services/cybersecurity.svg">-->
 <!--                    <h3>KIBERDROŠĪBA</h3>-->
 <!--                </div>-->
 <!--                <div class="card-content col-lg-9 d-grid gap-4">-->
@@ -123,8 +123,8 @@
     <div class="row gx-5">
         <div class="hero__left col d-flex justify-content-center pb-3">
             <div class="position-relative">
-                <div class="d-none d-sm-block">
-                    <img class="hero__left__man" src="assets/images/hero/man-at-computer.png" alt="man working on a computer">
+                <div class="hero__left__image d-none d-sm-block">
+                    <img src="assets/images/hero/man-at-computer.png" alt="man working on a computer">
                     <div class="gradient-filter"></div>
                 </div>
             </div>
@@ -139,16 +139,16 @@
     </div>
 </div>
 
-<div class="service-section container">
+<div class="service-section container pb-5">
     <h2 class="sub-heading text-center">Mūsu pakalpojumi</h2>
 
     <div class="card service-card container">
-        <div class="row">
-            <div class="service-card__header col-lg-3 mx-auto">
-                <img src="assets/images/about/cybersecurity.svg">
-                <h3>KIBERDROŠĪBA</h3>
+        <div class="d-flex flex-column flex-lg-row align-items-center">
+            <div class="service-card__header d-flex flex-column align-items-center text-center">
+                <img src="assets/images/services/cybersecurity.svg">
+                <h3 class="header-text">KIBERDROŠĪBA</h3>
             </div>
-            <div class="card-content col-lg-9 d-grid gap-4">
+            <div class="card-content flex-grow-1 d-grid gap-4">
                 <div class="card-content-section">
                     <h4>Drošības un ielaušanās testi</h4>
                     <p>Drošības un ielaušanās testi publiskām un iekšējām IT/OT/IoT sistēmām; sociālās inženierijas kampaņas; Open Source Intelligence (OSINT) datu vākšana un analīze</p>
@@ -166,12 +166,12 @@
     </div>
 
     <div class="card service-card container">
-        <div class="row">
-            <div class="service-card__header col-lg-3 mx-auto">
-                <img src="assets/images/about/consultations.svg">
-                <h3 class="text-wrap">VADĪBAS KONSULTĀCIJAS IT JAUTĀJUMOS</h3>
+        <div class="d-flex flex-column flex-lg-row">
+            <div class="service-card__header d-flex flex-column align-items-center">
+                <img src="assets/images/services/consultations.svg">
+                <h3 class="text-center px-3">VADĪBAS KONSULTĀCIJAS IT JAUTĀJUMOS</h3>
             </div>
-            <div class="card-content col-lg-9 d-grid gap-4">
+            <div class="card-content flex-grow-1 d-grid gap-4">
                 <div class="card-content-section">
                     <h4>Uzņēmuma / iestādes IT pārvaldības procesu uzlabošana</h4>
                     <p>Drošības un ielaušanās testi publiskām un iekšējām IT/OT/IoT sistēmām; sociālās inženierijas kampaņas; Open Source Intelligence (OSINT) datu vākšana un analīze</p>
@@ -193,12 +193,12 @@
     </div>
 
     <div class="card service-card container">
-        <div class="row">
-            <div class="service-card__header col-lg-3 mx-auto">
-                <img src="assets/images/about/monitoring.svg">
-                <h3>IT projektu uzraudzība un vadība</h3>
+        <div class="d-flex flex-column flex-lg-row">
+            <div class="service-card__header d-flex flex-column align-items-center text-center">
+                <img src="assets/images/services/monitoring.svg">
+                <h3 class="header-text">IT projektu uzraudzība un vadība</h3>
             </div>
-            <div class="card-content col-lg-9 d-grid gap-4">
+            <div class="card-content flex-grow-1 d-grid gap-4">
                 <div class="card-content-section">
                     <h4>Informācijas tehnoloģiju projektu uzraudzība</h4>
                     <p>Nodrošināsim pasūtītāja pārstāvja lomu Jūsu IT projektā un Jūsu piegādātāju uzraudzību tajā</p>
@@ -214,8 +214,48 @@
             </div>
         </div>
     </div>
-    <button class="btn btn-primary mx-auto d-block mt-5">Sazināties</button>
+    <button class="btn btn-primary d-block mx-auto">Sazināties</button>
 </div>
+
+<!--<div class="about-section container pt-5">-->
+<!--    <div class="row">-->
+<!--        <div class="about-section__main col-lg-4 order-last order-lg-first">-->
+<!--            <h2 class="heading">Par mums</h2>-->
+<!--            <p class="lead-paragraph">Esam uzticams un drošs atbalsts Jūsu uzņēmumam vai iestādei IT un kiberdrošības konsultāciju un pakalpojumu, kā arī IT projektu vadības un uzraudzības jautājumos. Mūsu komandā ir eksperti ir ilggadīgu pieredzi nozarē un CGEIT, ITIL, CEH, CISSP un CISM sertifikātiem.</p>-->
+<!--            <h3 class="sub-heading">Mūsu pamatvērtības</h3>-->
+<!--            <ul>-->
+<!--                <li>Uzticamība</li>-->
+<!--                <li>Skaidrība</li>-->
+<!--                <li>Stabilitāte</li>-->
+<!--            </ul>-->
+<!--            <button class="btn btn-primary mx-auto mt-5">Sazināties</button>-->
+<!--        </div>-->
+<!--        <div class="about-section__image col-lg position-relative h-100">-->
+<!--            <img src="assets/images/about/business.png">-->
+<!--            <div class="gradient-filter"></div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+<div class="about-section container d-flex flex-wrap flex-xl-nowrap pt-5">
+    <div class="about-section__main w-75 p-1 pe-5">
+        <h2 class="heading pb-4">Par mums</h2>
+        <p class="lead-paragraph">Esam uzticams un drošs atbalsts Jūsu uzņēmumam vai iestādei IT un kiberdrošības konsultāciju un pakalpojumu, kā arī IT projektu vadības un uzraudzības jautājumos. Mūsu komandā ir eksperti ir ilggadīgu pieredzi nozarē un CGEIT, ITIL, CEH, CISSP un CISM sertifikātiem.</p>
+        <h3 class="sub-heading">Mūsu pamatvērtības</h3>
+        <ul>
+            <li>Uzticamība</li>
+            <li>Skaidrība</li>
+            <li>Stabilitāte</li>
+        </ul>
+        <button class="btn btn-primary mx-auto mt-5">Sazināties</button>
+    </div>
+    <div class="about-section__image position-relative h-100">
+        <img src="assets/images/about/business.png">
+        <div class="gradient-filter"></div>
+    </div>
+</div>
+
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/less" ></script>
