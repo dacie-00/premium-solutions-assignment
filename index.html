@@ -15,15 +15,37 @@
 <div class="swirl position-absolute w-100 d-flex justify-content-end">
     <img src="assets/images/hero/swirl.png">
 </div>
+
+<div class="modal menu-modal fade" id="menu">
+    <div class="modal-dialog">
+        <div class="fake-fade"></div>
+        <div class="modal-content">
+            <div class="d-flex gap-2 text-center flex-column justify-content-center align-content-center">
+                <button data-bs-toggle="modal" data-bs-target="#menu">
+                    <img src="assets/images/hero/navbar/close-modal.svg">
+                </button>
+                <span>IS Services</span>
+                <span>Pakalpojumi</span>
+                <span>Par mums</span>
+                <span>Atsauksmes</span>
+                <span>Kontakti</span>
+            </div>
+        </div>
+    </div>
+</div>
+
 <nav class="navbar fixed-top d-flex justify-content-between align-content-center">
     <div class="container">
         <img src="assets/images/hero/navbar/logo.png" alt="IS Services logo" class="hero__left__logo">
         <img class="h-100" src="assets/images/hero/navbar/flag-lv.png" alt="Flag icon" class="flag-icon">
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <img class="h-100" src="assets/images/hero/navbar/burger.png" alt="Burger icon" class="flag-icon">
+            <button data-bs-toggle="modal" data-bs-target="#menu">
+                <img class="h-100" src="assets/images/hero/navbar/burger.png" alt="Burger icon" class="flag-icon">
+            </button>
         </button>
     </div>
 </nav>
+
 <div class="hero container-fluid mb-5 p-0">
     <div class="row gx-5">
         <div class="hero__left col d-flex justify-content-center pb-3">
@@ -126,7 +148,7 @@
     <img src="assets/images/about/swirl.png">
 </div>
 <div class="about-section container d-flex flex-wrap flex-xl-nowrap pt-5 mb-5">
-    <div class="about-section__main w-75 p-1 pe-5">
+    <div class="about-section__main w-75 p-1 pe-5 mb-3">
         <h2 class="heading pb-4">Par mums</h2>
         <p class="lead-paragraph mb-4">Esam uzticams un drošs atbalsts Jūsu uzņēmumam vai iestādei IT un kiberdrošības konsultāciju un pakalpojumu, kā arī IT projektu vadības un uzraudzības jautājumos. Mūsu komandā ir eksperti ir ilggadīgu pieredzi nozarē un CGEIT, ITIL, CEH, CISSP un CISM sertifikātiem.</p>
         <h3 class="sub-heading mb-4">Mūsu pamatvērtības</h3>
