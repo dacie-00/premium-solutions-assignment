@@ -1,0 +1,38 @@
+.form-section {
+  padding-top: 6rem;
+  &__left {
+    max-height: 70%;
+    max-width: 50%;
+    img {
+      max-height: 70%;
+    }
+  }
+  &__right {
+    p {
+      font-size: @font-size-md;
+    }
+    form {
+      font-size: @font-size-sm;
+    }
+    h2 {
+      span {
+        color : @primary-color;
+      }
+    }
+  }
+  .policy-note {
+    font-size: @font-size-xs;
+  }
+  span {
+    .email {
+      color: @secondary-color;
+    }
+  }
+  .swirl {
+    width: 200%;
+    @media (max-width: 1200px) {
+      width: 100%
+    }
+  }
+}
+
