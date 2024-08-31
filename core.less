@@ -3,6 +3,7 @@
 @background-color: #FFFFFF;
 @gradient-s-p: linear-gradient(90deg, @secondary-color 0%, @primary-color 100%);
 @card-color: #EBF4F6;
+@input-color: #D9D9D9;
 
 @text-color: #6E6E70;
 @font-size-xs: 0.8125rem; // 13px
@@ -67,3 +68,31 @@ img {
   border-radius: 9999px;
   font-size: @font-size-md;
 }
+
+input {
+  border: none;
+  border-bottom: solid;
+  border-color: @input-color;
+  margin: 1rem 0rem;
+}
+
+input[type=checkbox] {
+  border: 1px solid @input-color;
+  margin-right: 1ch;
+  width: 2em;
+  height: 2em;
+  transform: translate(0, 0.5em)
+}
+
+ul {
+  list-style: none;
+
+  li::before {
+    content: " ";
+    background: @gradient-s-p;
+    border-radius: 1ch;
+    padding-inline: 1ch;
+    margin-inline-end: 1ch;
+  }
+}
+
